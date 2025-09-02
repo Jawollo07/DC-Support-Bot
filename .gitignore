@@ -143,7 +143,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+# Private Files
+.key.pem
+.encryption_data.json
 # Spyder project settings
 .spyderproject
 .spyproject
