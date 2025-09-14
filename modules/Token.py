@@ -1,7 +1,7 @@
 import json, base64, os
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
-
+os.mkdir(DATA_DIR)
 DATA_DIR = "data/token"
 DATA_FILE = os.path.join(DATA_DIR, "encryption_data.json")
 KEY_FILE = os.path.join(DATA_DIR, "key.json")
